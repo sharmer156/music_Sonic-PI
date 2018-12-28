@@ -10,7 +10,7 @@
 音频中可视化划分
 ![enter description here](https://i.loli.net/2018/12/28/5c25e77587e8f.jpg)
 
-
+```sonic-PI
 [1, 3, 6, 4].each do |d|
   (range -3, 3).each do |i|
     play_chord (chord_degree d, :c, :major, 3, invert: i)
@@ -58,3 +58,4 @@ with_fx :lpf, cutoff: 90 do
   end
 end
 stop
+```
